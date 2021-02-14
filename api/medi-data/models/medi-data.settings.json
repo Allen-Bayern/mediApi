@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medi_data",
+  "info": {
+    "name": "medi-data",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "word": {
+      "type": "string"
+    },
+    "meaning_quick": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "meaning_dorland": {
+      "type": "text"
+    },
+    "meaning_mwd": {
+      "type": "text"
+    },
+    "meaning_ec": {
+      "type": "text"
+    },
+    "meaning_ce": {
+      "type": "text"
+    },
+    "meaning_5": {
+      "type": "text"
+    },
+    "sentence_1": {
+      "type": "text"
+    },
+    "sentence_2": {
+      "type": "string"
+    },
+    "sentence_3": {
+      "type": "string"
+    },
+    "sentence_4": {
+      "type": "string"
+    },
+    "sentence_5": {
+      "type": "string"
+    },
+    "relation_1": {
+      "type": "json"
+    },
+    "relation_2": {
+      "type": "json"
+    }
+  }
+}

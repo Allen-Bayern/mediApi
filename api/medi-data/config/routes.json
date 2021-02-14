@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/medi-data",
+      "handler": "medi-data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medi-data/count",
+      "handler": "medi-data.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medi-data/:id",
+      "handler": "medi-data.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/medi-data",
+      "handler": "medi-data.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/medi-data/:id",
+      "handler": "medi-data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/medi-data/:id",
+      "handler": "medi-data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
