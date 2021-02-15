@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_jsons",
+  "info": {
+    "name": "search_jsons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "documentation": {
+      "type": "json"
+    },
+    "medi_datum": {
+      "model": "medi-data",
+      "via": "search_json"
+    }
+  }
+}

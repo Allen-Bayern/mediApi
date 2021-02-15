@@ -54,6 +54,15 @@
     },
     "relation_2": {
       "type": "json"
+    },
+    "snomed_ct_imports": {
+      "collection": "snomed-ct-import",
+      "via": "medi_data",
+      "dominant": true
+    },
+    "search_json": {
+      "via": "medi_datum",
+      "model": "search-jsons"
     }
   }
 }
