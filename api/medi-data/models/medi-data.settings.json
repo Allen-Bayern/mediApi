@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "medi_data",
   "info": {
-    "name": "medi-data",
+    "name": "mediData",
     "description": ""
   },
   "options": {
@@ -61,8 +61,8 @@
       "dominant": true
     },
     "search_json": {
-      "via": "medi_datum",
-      "model": "search-jsons"
+      "model": "search-jsons",
+      "via": "medi_datum"
     }
   }
 }

@@ -14,8 +14,8 @@
       "type": "json"
     },
     "medi_datum": {
-      "model": "medi-data",
-      "via": "search_json"
+      "via": "search_json",
+      "model": "medi-data"
     }
   }
 }
