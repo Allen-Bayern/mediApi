@@ -19,46 +19,50 @@
       "required": true,
       "unique": false
     },
-    "meaning_dorland": {
+    "type": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "dorland": {
       "type": "text"
     },
-    "meaning_mwd": {
+    "dorland_zh": {
       "type": "text"
     },
-    "meaning_ec": {
+    "merriam": {
       "type": "text"
     },
-    "meaning_ce": {
+    "merriam_zh": {
       "type": "text"
     },
-    "meaning_5": {
+    "stedman": {
+      "type": "text"
+    },
+    "stedman_zh": {
       "type": "text"
     },
     "sentence_1": {
       "type": "text"
     },
     "sentence_2": {
-      "type": "string"
+      "type": "text"
     },
     "sentence_3": {
-      "type": "string"
+      "type": "text"
     },
     "sentence_4": {
-      "type": "string"
+      "type": "text"
     },
     "sentence_5": {
-      "type": "string"
+      "type": "text"
     },
     "relation_1": {
       "type": "json"
     },
     "relation_2": {
       "type": "json"
-    },
-    "snomed_ct_imports": {
-      "collection": "snomed-ct-import",
-      "via": "medi_data",
-      "dominant": true
     },
     "search_json": {
       "model": "search-jsons",
