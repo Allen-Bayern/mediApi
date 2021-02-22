@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "medi_data",
   "info": {
-    "name": "mediData",
+    "name": "medi-data",
     "description": ""
   },
   "options": {
@@ -12,61 +12,21 @@
   },
   "attributes": {
     "word": {
-      "type": "string"
-    },
-    "meaning_quick": {
       "type": "string",
       "required": true,
-      "unique": false
+      "unique": true
     },
-    "type": {
-      "type": "string"
+    "attribute": {
+      "type": "json",
+      "required": false
     },
-    "subject": {
-      "type": "string"
+    "which_subject": {
+      "via": "word2subj",
+      "model": "subject"
     },
-    "dorland": {
-      "type": "text"
-    },
-    "dorland_zh": {
-      "type": "text"
-    },
-    "merriam": {
-      "type": "text"
-    },
-    "merriam_zh": {
-      "type": "text"
-    },
-    "stedman": {
-      "type": "text"
-    },
-    "stedman_zh": {
-      "type": "text"
-    },
-    "sentence_1": {
-      "type": "text"
-    },
-    "sentence_2": {
-      "type": "text"
-    },
-    "sentence_3": {
-      "type": "text"
-    },
-    "sentence_4": {
-      "type": "text"
-    },
-    "sentence_5": {
-      "type": "text"
-    },
-    "relation_1": {
-      "type": "json"
-    },
-    "relation_2": {
-      "type": "json"
-    },
-    "search_json": {
-      "model": "search-jsons",
-      "via": "medi_datum"
+    "which_type": {
+      "via": "type2medi",
+      "model": "type"
     }
   }
 }

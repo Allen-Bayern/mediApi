@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "name": "type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "type2medi": {
+      "collection": "medi-data",
+      "via": "which_type"
+    }
+  }
+}
