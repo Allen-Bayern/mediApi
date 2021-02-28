@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/relations",
-      "handler": "relation.find",
+      "path": "/relas",
+      "handler": "rela.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/relations/count",
-      "handler": "relation.count",
+      "path": "/relas/count",
+      "handler": "rela.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/relations/:id",
-      "handler": "relation.findOne",
+      "path": "/relas/:id",
+      "handler": "rela.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/relations",
-      "handler": "relation.create",
+      "path": "/relas",
+      "handler": "rela.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/relations/:id",
-      "handler": "relation.update",
+      "path": "/relas/:id",
+      "handler": "rela.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/relations/:id",
-      "handler": "relation.delete",
+      "path": "/relas/:id",
+      "handler": "rela.delete",
       "config": {
         "policies": []
       }

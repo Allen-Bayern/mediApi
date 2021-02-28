@@ -17,14 +17,6 @@
     "meanings": {
       "type": "json"
     },
-    "rela_from": {
-      "via": "left_id",
-      "collection": "relation"
-    },
-    "rela_to": {
-      "via": "right_id",
-      "collection": "relation"
-    },
     "kaobos": {
       "collection": "kaobo",
       "via": "word_id"
@@ -32,6 +24,10 @@
     "subj": {
       "model": "subject",
       "via": "medis"
+    },
+    "relfr": {
+      "via": "leftid",
+      "collection": "rela"
     }
   }
 }

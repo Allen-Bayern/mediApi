@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relas",
+  "info": {
+    "name": "rela",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "right": {
+      "type": "biginteger"
+    },
+    "leftid": {
+      "model": "medi-data",
+      "via": "relfr"
+    },
+    "rightw": {
+      "type": "string"
+    },
+    "relaeng": {
+      "type": "string"
+    },
+    "relachn": {
+      "type": "string"
+    }
+  }
+}
