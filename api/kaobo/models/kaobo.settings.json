@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kaobos",
+  "info": {
+    "name": "kaobo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "is_kaobo": {
+      "type": "boolean",
+      "default": true
+    },
+    "word_id": {
+      "via": "kaobos",
+      "model": "medi-data"
+    }
+  }
+}

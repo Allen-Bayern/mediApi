@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relations",
+  "info": {
+    "name": "relation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "relatype": {
+      "type": "string",
+      "required": true
+    },
+    "left_id": {
+      "private": true,
+      "model": "medi-data",
+      "via": "rela_from"
+    },
+    "right_id": {
+      "model": "medi-data",
+      "via": "rela_to"
+    },
+    "rela_cn": {
+      "type": "string",
+      "required": true
+    },
+    "right_word": {
+      "type": "string"
+    }
+  }
+}

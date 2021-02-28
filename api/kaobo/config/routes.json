@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/types",
-      "handler": "type.find",
+      "path": "/kaobos",
+      "handler": "kaobo.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/types/count",
-      "handler": "type.count",
+      "path": "/kaobos/count",
+      "handler": "kaobo.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/types/:id",
-      "handler": "type.findOne",
+      "path": "/kaobos/:id",
+      "handler": "kaobo.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/types",
-      "handler": "type.create",
+      "path": "/kaobos",
+      "handler": "kaobo.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/types/:id",
-      "handler": "type.update",
+      "path": "/kaobos/:id",
+      "handler": "kaobo.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/types/:id",
-      "handler": "type.delete",
+      "path": "/kaobos/:id",
+      "handler": "kaobo.delete",
       "config": {
         "policies": []
       }

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "medi_data",
   "info": {
-    "name": "medi-data",
+    "name": "medi_data",
     "description": ""
   },
   "options": {
@@ -12,21 +12,26 @@
   },
   "attributes": {
     "word": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
-    "attribute": {
-      "type": "json",
-      "required": false
+    "meanings": {
+      "type": "json"
     },
-    "which_subject": {
-      "via": "word2subj",
-      "model": "subject"
+    "rela_from": {
+      "via": "left_id",
+      "collection": "relation"
     },
-    "which_type": {
-      "via": "type2medi",
-      "model": "type"
+    "rela_to": {
+      "via": "right_id",
+      "collection": "relation"
+    },
+    "kaobos": {
+      "collection": "kaobo",
+      "via": "word_id"
+    },
+    "subj": {
+      "model": "subject",
+      "via": "medis"
     }
   }
 }
