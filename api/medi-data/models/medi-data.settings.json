@@ -26,8 +26,8 @@
       "via": "medis"
     },
     "relfr": {
-      "via": "leftid",
-      "collection": "rela"
+      "collection": "rela",
+      "via": "leftid"
     }
   }
 }

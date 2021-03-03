@@ -15,8 +15,8 @@
       "type": "biginteger"
     },
     "leftid": {
-      "model": "medi-data",
-      "via": "relfr"
+      "via": "relfr",
+      "model": "medi-data"
     },
     "rightw": {
       "type": "string"
