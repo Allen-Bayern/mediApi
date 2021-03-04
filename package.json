@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "serve": "npx --max_old_space_size=4096 vue-cli-service serve"
   },
   "devDependencies": {},
   "dependencies": {
