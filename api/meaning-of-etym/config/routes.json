@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/meaning-of-etyms",
+      "handler": "meaning-of-etym.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meaning-of-etyms/count",
+      "handler": "meaning-of-etym.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meaning-of-etyms/:id",
+      "handler": "meaning-of-etym.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/meaning-of-etyms",
+      "handler": "meaning-of-etym.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/meaning-of-etyms/:id",
+      "handler": "meaning-of-etym.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/meaning-of-etyms/:id",
+      "handler": "meaning-of-etym.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

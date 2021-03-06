@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "etyms",
+  "info": {
+    "name": "etym",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "word": {
+      "type": "string"
+    },
+    "variation": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "meaning_of_etyms": {
+      "collection": "meaning-of-etym",
+      "via": "etyms",
+      "dominant": true
+    },
+    "type_chn": {
+      "type": "string"
+    },
+    "medi_word": {
+      "collection": "medi-data",
+      "via": "which_root",
+      "dominant": true
+    }
+  }
+}

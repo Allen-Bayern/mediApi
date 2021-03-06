@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meaning_of_etyms",
+  "info": {
+    "name": "meaning_of_etym",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "meaning": {
+      "type": "string"
+    },
+    "chinese": {
+      "type": "string"
+    },
+    "etyms": {
+      "via": "meaning_of_etyms",
+      "collection": "etym"
+    }
+  }
+}

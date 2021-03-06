@@ -28,6 +28,10 @@
     "relfr": {
       "collection": "rela",
       "via": "leftid"
+    },
+    "which_root": {
+      "via": "medi_word",
+      "collection": "etym"
     }
   }
 }
