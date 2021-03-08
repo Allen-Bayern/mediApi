@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abbrs",
+  "info": {
+    "name": "abbr",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "word": {
+      "type": "text"
+    },
+    "origin_word": {
+      "type": "text"
+    }
+  }
+}
