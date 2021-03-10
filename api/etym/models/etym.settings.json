@@ -21,8 +21,8 @@
       "type": "string"
     },
     "meaning_of_etyms": {
-      "collection": "meaning-of-etym",
       "via": "etyms",
+      "collection": "meaning-of-etym",
       "dominant": true
     },
     "type_chn": {

@@ -16,6 +16,9 @@
     },
     "origin_word": {
       "type": "text"
+    },
+    "chn": {
+      "type": "text"
     }
   }
 }

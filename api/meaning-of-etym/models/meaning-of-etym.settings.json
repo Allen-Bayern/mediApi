@@ -14,12 +14,12 @@
     "meaning": {
       "type": "string"
     },
-    "chinese": {
+    "chn": {
       "type": "string"
     },
     "etyms": {
-      "via": "meaning_of_etyms",
-      "collection": "etym"
+      "collection": "etym",
+      "via": "meaning_of_etyms"
     }
   }
 }
